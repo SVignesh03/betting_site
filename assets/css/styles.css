@@ -1,0 +1,234 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  #main {
+    padding-top: 200px; /* Adjust according to header height */
+    padding-bottom: 125px; /* Adjust according to footer height */
+  }
+
+  h2 {
+    color: #FFC0CB;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  form {
+    /* background-image: url('BGrain.gif'); */
+    /* background-size: cover; /* adjust to "contain" or specific dimensions as needed */
+    /* background-repeat: no-repeat;
+    background-position: center center; */
+    background: linear-gradient(to bottom, #032e52, #2980b9,#333,#3498db,#4682B4);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #FFC0CB;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+  .password-wrapper {
+    position: relative;
+    display: inline-flex;
+}
+
+#eye{
+    height: 35px;
+    width: 35px;
+    /* padding: 8px; */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    background-color: #fff;
+
+}
+#password {
+    padding-right: 30px; /* Make space for the button on the right */
+}
+
+#togglePassword {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;    
+  }
+
+  input[type="submit"]:hover {
+    background-color: #FF69B4;
+    color: #032e52;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #FFFFF0;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #4682B4;
+  }
+
+  .container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* width: 40%; */
+  }
+    
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group input[type="password"] {
+    width: calc(100% - 20px) !important;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .bet {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* #main .container {
+    margin-top: 50px;
+}
+
+#main .button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#main .button {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#main .button:hover {
+    opacity: 0.8;
+}
+
+.double_button {
+    background: linear-gradient(to right, rgb(97, 1, 97) 50%, green 50%);
+    background-size: 200% 100%;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+} */
+
+.home{
+  background-color: #f8f9fa;
+}
+
+/* #main .logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;  Adjust size as needed 
+} */
+
+/* Additional Styles for Animations */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+}
+
+/* Adjust margins and paddings */
+/* #main .section {
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+} */
+
+/* Custom fonts */
+.hp_head {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.about {
+  background-color: #f8f9fa;
+}

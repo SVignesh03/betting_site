@@ -1,0 +1,76 @@
+  /* Footer styles */
+  footer {
+    background-color: #808080;
+    color: #fff;
+    /* padding: 20px 0; */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000
+  }
+  footer nav ul li a i:hover{
+    color: #1DCC70;
+  }
+  /* Navbar styles */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use flexbox */
+    justify-content: space-between;
+    max-width: 100%;
+  }
+  
+  nav ul li {
+    flex: 1;
+    margin: 0;
+  }
+  
+  nav ul li a img {
+    width: auto; /* Adjust button size as needed */
+    height: auto;
+    border: none;
+    opacity: 0.7;
+  }
+  
+  nav ul li a img:hover {
+    opacity: 1;
+  }
+  
+
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    z-index: 1000;
+  }
+  
+  .logo img {
+    width: auto; /* Adjust as per your logo size */
+    height: auto;
+  }
+  
+  .user{
+    padding-right: 25px;
+    margin-right: 10px;
+  }
+  .user button {
+    padding: 10px 15px;
+    margin-right: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .user button:hover {
+    background-color: #2980b9;
+  }
+
